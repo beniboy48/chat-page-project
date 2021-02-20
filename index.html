@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Chat app felhasználói felülete">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <link rel="stylesheet" type="text/css" href="chat-style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/21b5435c93.js" crossorigin="anonymous"></script>
+  <title>Chat app felhasználói felülete</title>
+</head>
+<body>
+
+<div class="app-container">
+
+	<div class="main">
+
+		<div class="header">
+		
+			<div class="to-name"><a href="#">Amy Adams</a></div>
+			
+			<div class="logo-container">
+			
+				<img src="assets/logo_50.svg" alt="Logo">
+				
+			</div>
+			
+			<div class="profile">
+			
+				<div class="name white"><a href="#">Student name</a></div>
+				
+				<a href="#"><img class="profile-pic upper" src="assets/user_avatar_07.png" alt="profile picture"></a>
+				
+			</div>
+		
+		</div>
+		
+		<div class="chat">
+		
+			<div class="message get">
+				
+				<div class="img-container">
+					<img class="profile-pic side" src="assets/user_avatar_01.png" alt="Profile picture">
+				</div>
+				
+				<div class="message-container">
+				
+					<div class="chat-title">Amy, 11:37</div>
+					
+					<div class="content text">
+						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+					</div>
+					
+					<div class="content text">
+						At vero eos et accusam et justo duo dolores et ea rebum.
+					</div>
+					
+				</div>
+				
+			</div>
+			
+			<div class="message send">
+				
+				<div class="img-container">
+					<img class="profile-pic side" src="assets/user_avatar_07.png" alt="Profile picture">
+				</div>
+				
+				<div class="message-container">
+				
+					<div class="chat-title">11:40</div>
+				
+					<div class="content text">
+						Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+					</div>
+					
+				</div>
+				
+			</div>
+			
+			<div class="message get">
+				
+				<div class="img-container">
+					<img class="profile-pic side" src="assets/user_avatar_01.png" alt="Profile picture">
+				</div>
+				
+				<div class="message-container">
+				
+					<div class="chat-title">Amy, 12:04</div>
+				
+					<div class="content text">
+						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+					</div>
+					
+				</div>
+				
+			</div>
+			
+			<div class="message send">
+				
+				<div class="img-container">
+					<img class="profile-pic side" src="assets/user_avatar_07.png" alt="Profile picture">
+				</div>
+				
+				<div class="message-container">
+				
+					<div class="chat-title">12:06</div>
+				
+					<div class="content text">
+						At vero eos et accusam et justo duo dolores et ea rebum.
+					</div>
+					
+					<div class="content text">
+						Stet clita kasd gubergren.
+					</div>
+					
+				</div>
+				
+			</div>
+			
+			<div class="chat-title typing">Amy is typing...</div>
+			
+		</div>
+		
+		<div class="input-container">
+		
+			<div class="input-box">
+			
+				<div class="text-container">
+				
+					<textarea id="message" name="message" rows="4" cols="50" placeholder="Type your message..."></textarea>
+					
+					<a class="icon attach" href="#"><i class="fas fa-paperclip"></i></a>
+				
+					<a class="icon emoji" href="#"><i class="far fa-smile"></i></a>
+					
+				</div>
+				
+				<a class="big-icon done" href="#"><i class="far fa-paper-plane"></i></a>
+				
+			</div>
+		
+		</div>
+
+	</div>
+
+	<div class="sidebar">
+
+		<div class="search">
+
+			<input type="text" placeholder="Search">
+			
+			<a href="#"><i class="fas fa-search"></i></a>
+			
+		</div>
+		
+		<div class="friends">
+		
+			<a class="partner active" href="#">
+			
+				<img class="profile-pic" src="assets/user_avatar_01.png" alt="Profile picture">
+				
+				<div class="partner-data">
+					
+					<span class="name friend">Amy Adams</span><br>
+					<span class="text black">Lorem ipsum dolor sit amet, consetetur</span>
+					
+				</div>
+				
+			</a>
+			
+			<a class="partner" href="#">
+			
+				<img class="profile-pic" src="assets/user_avatar_02.png" alt="Profile picture">
+				
+				<div class="partner-data">
+					
+					<span class="name friend">Marc</span><br>
+					<span class="text black">Sed diam nonumy eirmod tempor invidunt</span>
+					
+				</div>
+				
+			</a>
+			
+			<a class="partner" href="#">
+			
+				<img class="profile-pic" src="assets/user_avatar_03.png" alt="Profile picture">
+				
+				<div class="partner-data">
+					
+					<span class="name friend">Jacob</span><br>
+					<span class="text black"><br></span>
+					
+				</div>
+				
+			</a>
+			
+			<a class="partner" href="#">
+			
+				<img class="profile-pic" src="assets/user_avatar_04.png" alt="Profile picture">
+				
+				<div class="partner-data">
+					
+					<span class="name friend">Chris Smith</span><br>
+					<span class="text black">At vero eos et accusam et justo duo dolores</span>
+					
+				</div>
+				
+			</a>
+			
+			<a class="partner" href="#">
+			
+				<img class="profile-pic" src="assets/user_avatar_05.png" alt="Profile picture">
+				
+				<div class="partner-data">
+					
+					<span class="name friend">Mia Wong</span><br>
+					<span class="text black">Stet clita kasd gubergren.</span>
+					
+				</div>
+				
+			</a>
+			
+			<a class="partner" href="#">
+			
+				<img class="profile-pic" src="assets/user_avatar_06.png" alt="Profile picture">
+				
+				<div class="partner-data">
+					
+					<span class="name friend">Jane</span><br>
+					<span class="text black">Lorem ipsum dolor sit amet, consetetur</span>
+					
+				</div>
+				
+			</a>
+		
+		</div>
+		
+		<input class="button new" type="submit" value="ADD NEW CONTACT">
+
+	</div>
+	
+</div>
+
+</body>
+</html>
